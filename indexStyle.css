@@ -1,0 +1,248 @@
+body {
+  background-image: linear-gradient(to Right, #f0efed, #ffe6b3);
+  }
+  .navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    /* margin-right: 1rem; */
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+.owl-carousel.home-slider .slider-item .slider-text {
+    height: 900px;
+    position: relative;
+}
+.align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    /* background: #ffff4d; */
+    /* font-size: 15px; */
+    line-height: 1.8;
+    font-weight: 400;
+    color: gray;
+}.booking-form .form-group {
+    position: relative;
+    width: 100%;
+    display: block;
+    margin-bottom: 0;
+    background: #fff;
+}
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    /* margin-left: -15px; */
+}
+@media (min-width: 768px)
+.ftco-booking {
+    padding: 0;
+}
+.ftco-booking {
+    padding: 5em 0;
+    width: 100%;
+    border: 1px solid transparent;
+}
+  .room .img {
+    display: block;
+    height: 250px;
+}
+.insta-img, .room-img, .hero-wrap, .img, .blog-img, .user-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.services .icon {
+    line-height: 1.3;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: #f6f2ea;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+.text-center {
+    text-align: center !important;
+}
+.testimony-wrap .user-img {
+    width: 100px;
+    height: 100px;
+    /* border-radius: 50%; */
+    position: relative;
+    margin: 0 auto;
+    margin-top: -75px;
+}.insta-img, .room-img, .hero-wrap, .img, .blog-img, .user-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+element.style {
+    width: 450px;
+}
+  .ftco-footer {
+    font-size: 16px;
+    padding: 7em 0;
+    background: #232323;
+}
+.ftco-section {
+    padding: 6em 0;
+    position: relative;
+}
+@media (max-width: 1199.98px)
+.owl-carousel.home-slider .slider-item {
+    background-position: center center !important;
+}
+.owl-carousel.home-slider .slider-item {
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center center;
+    height: 900px;
+    position: relative;
+    z-index: 0;
+}
+.p-4 {
+    padding: 1.5rem !important;
+}
+.align-self-stretch {
+    -ms-flex-item-align: stretch !important;
+    align-self: stretch !important;
+}
+.align-items-end {
+    -webkit-box-align: end !important;
+    -ms-flex-align: end !important;
+    /* align-items: flex-end !important; */
+}.d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+.ftco-navbar-light {
+    background: transparent !important;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    padding: 0;
+}.align-self-stretch {
+    -ms-flex-item-align: stretch !important;
+    align-self: stretch !important;
+}*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.flaticon-car:before {
+    content: "\f101";
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}.services .icon {
+    line-height: 1.3;
+    position: relative;
+
+    width: 100px;
+    height: 100px;
+
+    background: #f6f2ea;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+.services .icon span {
+    font-size: 54px;
+    color: #8d703b;
+}.flaticon-car:before {
+    content: "\f101";
+}
+
+#logoDeluxe{
+  font-size: 1.75em;
+  color: #f0efed;
+}
+
+#lblwelcome{
+  font-size: 5.8em;
+  color: #fff;
+}
+
+.lbldel{
+  color: #f0efed;
+  font-size: 1.2em;
+}
+
+#h2-welcome{
+  color: #fff;
+  font-size: 2.64em;
+}
+
+#ipData{
+  margin-top: 100px;
+  margin-bottom: -50px;
+  color: #fff;
+}
+
+#align-logo{
+  margin-top: 250px;
+}
+
+#nav-item2{
+  color: #fff;
+}
+#lbllbl{
+  color: #8d703b;
+  margin-bottom: 25px;
+  font-size: 25px;
+  font-family: 'Merriweather Sans', sans-serif;;
+}
+
+#btn-chk{
+    background-color: #8d703b;
+    border-color: #8d703b;
+}
+
+#btn-chk:hover {
+    background-color: #000;
+    border-color: #000;
+  }
+
+  .btn-play{
+      background-image: image("images/play-button-inside-a-circle.png");
+      height: 300px;
+      width: 300px;
+  }
