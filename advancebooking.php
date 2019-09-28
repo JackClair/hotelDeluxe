@@ -1,25 +1,18 @@
 <?php session_start(); ?>
-<!-- <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Check availability</title>
-  </head>
-  <body>
-    <form class="" method="post">
-      <h3>Type :</h3>
-      <select name="type" size="">
-        <option value="Single Room">Single Room</option>
-        <option value="Family Room">Family Room</option>
-        <option value="Deluxe Room">Deluxe Room</option>
-      </select>
-      <h3>Date :</h3>
-      <input type="date" name="date" value="">
-      <h3>No. of days</h3>
-      <input type="text" name="noofdays" value="">
-      <input type="submit" name="check" value="Check availability">
-    </form> -->
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/sweetalert2.all.min.js"></script>
+</head>
+<body>
+  
+</body>
+</html>
     <?php
     require_once('database/connect.php');
 
@@ -104,20 +97,15 @@
                {
                  $_SESSION["roomno"] = $row["roomno"];
                  echo $_SESSION["roomno"];
-                 header("Location: advancebooking2.php");
-                 //$final2 = 'success';
+                 header("Location: register.html");
                }
              }
-           }
-           if ($final2 == 'success')
-           {
-             //Nothing
            }
          }
        }
       else
       {
-         echo "Unavailable";
+        echo "<script>Swal.fire({type: 'error',title: 'Sorry...',text: 'No Room is available!'footer:''})</script>";
        }
        $conn->close();
      }

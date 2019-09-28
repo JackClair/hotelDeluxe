@@ -1,5 +1,19 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/sweetalert2.all.min.js"></script>
+</head>
+<body>
+  
+</body>
+</html>
 <?php
-session_start();
 require_once('database/connect.php');
 
 function incrementDate($date, $type)
@@ -86,16 +100,19 @@ if (isset($_POST['submit']))
     $date = incrementDate($date2, $type);
     if ($conn->query($sql) === TRUE)
     {
-      echo "New record created successfully";
+      // echo "New record created successfully";
     }
     else
     {
       echo "Error: " . $sql . "<br>" . $conn->error;
     }
+    echo "<script>Swal.fire('Congartulation','Your Booking Has been Confirmed!','success')</script>"; 
+    header("Location: index.html");
   }
 }
 else {
-  echo "lavda";
+  echo "<script>Swal.fire({type: 'error',title: 'Oops...',text: 'Something went wrong!'footer:''})</script>";
+  header("Location: index.html");
 }
 //sweetalert2
 $conn->close();
