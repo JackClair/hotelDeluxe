@@ -116,6 +116,10 @@ element.style {
     padding: 6em 0;
     position: relative;
 }
+.ftco-section {
+    padding: 6em 0;
+    position: relative;
+}
 @media (max-width: 1199.98px)
 .owl-carousel.home-slider .slider-item {
     background-position: center center !important;
@@ -185,10 +189,8 @@ element.style {
     border-radius: 50%;
 }
 .services .icon span {
-    font-size: 54px;
+    font-size: 3em;
     color: #8d703b;
-}.flaticon-car:before {
-    content: "\f101";
 }
 
 #logoDeluxe{
@@ -229,6 +231,7 @@ element.style {
   margin-bottom: 25px;
   font-size: 25px;
   font-family: 'Merriweather Sans', sans-serif;;
+  padding:2px;
 }
 
 #btn-chk{
@@ -246,3 +249,5 @@ element.style {
       height: 300px;
       width: 300px;
   }
+  
+
