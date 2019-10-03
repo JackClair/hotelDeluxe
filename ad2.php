@@ -107,11 +107,13 @@ if (isset($_POST['submit']))
       echo "Error: " . $sql . "<br>" . $conn->error;
     }
     echo "<script>Swal.fire('Congartulation','Your Booking Has been Confirmed!','success')</script>"; 
+    sleep(5);
     header("Location: index.html");
   }
 }
 else {
   echo "<script>Swal.fire({type: 'error',title: 'Oops...',text: 'Something went wrong!'footer:''})</script>";
+  sleep(5);
   header("Location: index.html");
 }
 //sweetalert2

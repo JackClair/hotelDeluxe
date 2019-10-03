@@ -10,18 +10,24 @@ if (isset($_POST['submit']))
 
   if ($result->num_rows > 0)
    {
+     $checking = 1;
     while($row = $result->fetch_assoc())
      {
         if ($username === $row["username"] and $password === $row["password"])
         {
-          echo "Go";
+          $checking = 2;
           header("Location: menu.html");
         }
-   }
+     }
+     if ($checking == 2)
+     {
+      $message = 'Invalid Input!';
+      echo "<script type='text/javascript'>alert('$message');</script>";
+     }
    }
   else
   {
-     echo "string";
+   
    }
  }
   $conn->close();

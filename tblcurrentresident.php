@@ -44,6 +44,66 @@ padding-right:40px;
 	{
 		background: #ffcc80;
 	}
+  .navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    /* margin-right: 1rem; */
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+body {
+    font-family: "Poppins", Arial, sans-serif;
+  
+    /* font-size: 15px; */
+    line-height: 1.8;
+    /* font-weight: 400; */
+    color: gray;
+}
+.res
+{ height:150px;
+}
+.hero-wrap .slider-text {
+    color: #fff;
+    height: 300px;
+}
+.ftco-navbar-light {
+    background: transparent !important;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    padding: 0;
+	}
+	#nav-item2{
+  color: #fff;
+}
+.lbldel{
+  color: #f0efed;
+  font-size: 1.2em;
+}
+#lblwelcome{
+  font-size: 3.8em;
+  color: #fff;
+}
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    /* line-height: 1.2; */
+}.room-img, .hero-wrap, .img, .blog-img, .user-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
 
 
@@ -52,6 +112,30 @@ padding-right:40px;
 </style>
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="lbldel" href="index.html">Deluxe</a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+	
+<div class="hero-wrap" style="background-image: url('images/luxury_hotel.jpg');">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text d-flex align-itemd-end justify-content-center">
+          <div class="col-md-9 ftco-animate text-center d-flex align-items-end justify-content-center">
+          	<div class="text">
+	            
+	            <h1 class="mb-4 bread res">Current Resident</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 <div class="container">
  <div class="table-responsive">
   <table class="table">
