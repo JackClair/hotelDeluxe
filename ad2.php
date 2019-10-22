@@ -107,7 +107,8 @@ if (isset($_POST['submit']))
       echo "Error: " . $sql . "<br>" . $conn->error;
     }
     // echo "<script>Swal.fire('Congartulation','Your Booking Has been Confirmed!','success')</script>"; 
-    echo "<script>Swal.fire('Congartulation','Your Booking ID is $booking_ID','success');document.location='index.html'</script>";
+    echo "<script>Swal.fire('Congartulation','Your Booking ID is $booking_ID','success');</script>";
+    echo '<script src="js/sleep.js"></script>';
     // sleep(5);
     // header("Location: index.html");
   }
@@ -116,7 +117,8 @@ else {
   // echo "<script>Swal.fire({type: 'error',title: 'Oops...',text: 'Something went wrong!'footer:''})</script>";
   // sleep(5);
   // header("Location: index.html");
-  echo "<script>Swal.fire({type: 'error',title: 'Oops...',text: 'Something went wrong!'footer:''});document.location='index.html'</script>";
+  echo "<script>Swal.fire({type: 'error',title: 'Oops...',text: 'Something went wrong!'footer:''});</script>";
+  echo '<script src="js/sleep.js"></script>';
 }
 //sweetalert2
 $conn->close();
