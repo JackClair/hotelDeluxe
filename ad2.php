@@ -95,7 +95,7 @@ if (isset($_POST['submit']))
 
   while ($noofdays > 0) {
     $noofdays-=1;
-    $sql = "INSERT INTO `tbladvancebooking` (`ID`, `booking_ID`, `Name`, `email`, `Address`, `PhoneNo`, `AdhaarNo`, `RoomAllocate`, `Date`, `CheckIn`) VALUES (NULL, '$booking_ID', '$name', '$email', '$address', '$phoneNo', '$addhar', '$roomno', '$date', current_timestamp());;";
+    $sql = "INSERT INTO `tbladvancebooking` (`ID`, `booking_ID`, `Name`, `email`, `Address`, `PhoneNo`, `AdhaarNo`, `RoomAllocate`, `Date`, `CheckIn`) VALUES (NULL, '$', '$name', '$email', '$address', '$phoneNo', '$addhar', '$roomno', '$date', current_timestamp());;";
     $date2 = $date;
     $date = incrementDate($date2, $type);
     if ($conn->query($sql) === TRUE)
@@ -106,15 +106,17 @@ if (isset($_POST['submit']))
     {
       echo "Error: " . $sql . "<br>" . $conn->error;
     }
-    echo "<script>Swal.fire('Congartulation','Your Booking Has been Confirmed!','success')</script>"; 
-    sleep(5);
-    header("Location: index.html");
+    // echo "<script>Swal.fire('Congartulation','Your Booking Has been Confirmed!','success')</script>"; 
+    echo "<script>Swal.fire('Congartulation','Your Booking ID is $booking_ID','success');document.location='index.html'</script>";
+    // sleep(5);
+    // header("Location: index.html");
   }
 }
 else {
-  echo "<script>Swal.fire({type: 'error',title: 'Oops...',text: 'Something went wrong!'footer:''})</script>";
-  sleep(5);
-  header("Location: index.html");
+  // echo "<script>Swal.fire({type: 'error',title: 'Oops...',text: 'Something went wrong!'footer:''})</script>";
+  // sleep(5);
+  // header("Location: index.html");
+  echo "<script>Swal.fire({type: 'error',title: 'Oops...',text: 'Something went wrong!'footer:''});document.location='index.html'</script>";
 }
 //sweetalert2
 $conn->close();

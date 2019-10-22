@@ -254,3 +254,9 @@ element.style {
     height: 100px;
     width: 80%;
 }
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 60px;
+    font-style: normal;
+    margin-left: 10px;
+}
